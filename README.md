@@ -50,4 +50,8 @@ pip install -e . (Please remove 'open3d' from the 'requirements.txt' file to avo
 Cut the 'lavis' folder and paste it into the 'lib' folder.  
 
 ## caption
-1. python ./emo/caption.py (to obtain image captions，select the 'path' based on the class to be processed.)  
+1. python ./emo/caption.py (to obtain image captions，select the 'path' based on the class to be processed.) 
+2. python ./emo/cap-anno.py (to write the attributes and captions of the image into a file，select the 'path' based on the class to be processed.)  
+3. python ./emo/gpt4_reasoning.py or python ./emo/gpt4_conversation.py (using the above file as input data, instruct gpt4 to generate questions.)  
+#Remember to change the key  
+#If you wish to adjust the prompt, you can go to the 'prompt_config.txt' file.   
