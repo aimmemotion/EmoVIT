@@ -15,3 +15,6 @@ git clone https://github.com/salesforce/LAVIS.git
 cd LAVIS  
 pip install -e . (Please remove 'open3d' from the 'requirements.txt' file to avoid version conflicts.)  
 Cut the 'lavis' folder and paste it into the 'lib' folder.  
+
+## caption
+1. python ./emo/caption.py (to obtain image captions，select the 'path' based on the class to be processed.)  
