@@ -1,6 +1,38 @@
 # EmoVIT
 Official code for paper EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning ｜ CVPR 2024
 
+```
+EmoSet/
+|
++--LAVIS
+|
++--emo
+    |
+    +--annotation
+    |
+    +--cap-ano
+    |
+    +--caption
+    |
+    +--prompt
+    |
+    +--image
+        +--amusement (Results of Emoset Decompression)
+        |
+        +--anger (Results of Emoset Decompression)
+        |
+        .
+        .
+        .
+        |
+        +--result_image
+                |
+                ........
+
+After downloading the project from GitHub, you can see two main folders: LAVIS and emo. 
+Arrange the image data into the correct locations as described above. For example, EmoSet can be obtained from https://vcc.tech/EmoSet.
+The folders 'annotation', 'cap-ano', 'caption', 'image', and 'result' are empty and need to be created manually (GitHub does not support empty folder, or you can download from https://drive.google.com/drive/folders/1DL-bIxUtHaTzfmhXuwn1-sCLx42-Oy0V?usp=sharing )
+
 ## Install related packages
 conda create --name emovit python=3.8  
 conda activate emovit  
