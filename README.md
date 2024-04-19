@@ -28,6 +28,7 @@ EmoSet/
         +--result_image
                 |
                 ........
+```
 
 After downloading the project from GitHub, you can see two main folders: LAVIS and emo. 
 Arrange the image data into the correct locations as described above. For example, EmoSet can be obtained from https://vcc.tech/EmoSet.
