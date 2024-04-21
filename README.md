@@ -54,7 +54,7 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
 2. python ./emo/cap-anno.py (to write the attributes and captions of the image into a file，select the 'path' based on the class to be processed.)  
 3. python ./emo/gpt4_reasoning.py or python ./emo/gpt4_conversation.py (using the above file as input data, instruct gpt4 to generate questions.)  
 #Remember to change the key  
-#If you wish to adjust the prompt, you can go to the 'prompt_config.txt' file.
+#If you wish to adjust the prompt, you can go to the 'prompt' folder.
 
 ## Train emoVIT 
 - Run  
