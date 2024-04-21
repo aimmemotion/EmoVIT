@@ -66,9 +66,6 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
     - training  
     python train.py --cfg-path FT.yaml  
 
-    - inference  
-    the use of testing are in inference.py  
-
 - Parameter  
   LAVIS/FT.yaml (Setting of hyperparameter)  
   LAVIS/lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml (Select the location of llm weight)  
