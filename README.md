@@ -72,5 +72,4 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
 
 ## Inference emoVIT
 如果還沒訓練自己的weight，可以用LAVIS資料夾附的model_weights1.pth。  
-cd LAVIS/project/instructblip  
-python test.py  
+python ./LAVIS/test.py  
