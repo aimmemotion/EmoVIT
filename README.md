@@ -64,12 +64,14 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
   
 - Run  
     - training  
+    cd LAVIS
     python train.py --cfg-path FT.yaml  
 
 - Parameter  
   LAVIS/FT.yaml (Setting of hyperparameter)  
   LAVIS/lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml (Select the location of llm weight)  
-  LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml (Select the location of your data)  
+  LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml (Select the location of your data)
+  LAVIS/lavis/runners/runner_base.py (Change the name of the weight file to be saved.)
 
 ## Inference emoVIT
 If you haven't trained your own weights yet, you can use the model_weights1.pth provided in the LAVIS folder. 
