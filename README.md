@@ -56,7 +56,7 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
 #Remember to change the key  
 #If you wish to adjust the prompt, you can go to the 'prompt_config.txt' file.
 
-## Train emoVIT  
+## Train emoVIT 
 - Run  
     - training  
     python train.py --cfg-path FT.yaml  
@@ -65,6 +65,6 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
     the use of testing are in inference.py  
 
 - Parameter  
-    LAVIS/FT.yaml (Setting of hyperparameter)  
-    LAVIS/lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml (Select the location of llm weight)  
-    LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml (Select the location of your data)  
+  LAVIS/FT.yaml (Setting of hyperparameter)  
+  LAVIS/lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml (Select the location of llm weight)  
+  LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml (Select the location of your data)  
