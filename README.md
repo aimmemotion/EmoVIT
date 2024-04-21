@@ -69,3 +69,8 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
   LAVIS/FT.yaml (Setting of hyperparameter)  
   LAVIS/lavis/configs/models/blip2/blip2_instruct_vicuna7b.yaml (Select the location of llm weight)  
   LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml (Select the location of your data)  
+
+## Inference emoVIT
+如果還沒訓練自己的weight，可以用LAVIS資料夾附的model_weights1.pth。  
+cd LAVIS/project/instructblip  
+python test.py  
