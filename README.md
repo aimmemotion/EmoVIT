@@ -29,8 +29,8 @@ EmoSet/
                 |
                 ........
 ```
-
-After downloading the project from GitHub, you can see two main folders: LAVIS and emo. 
+You can find two main folders in our project structure, 'emo' and 'LAVIS'.  
+The 'emo' folder can be obtained from GitHub, while the 'LAVIS' folder can be obtained from https://drive.google.com/file/d/1QXlJxzBKTk34wP0kFWyG2XJnG_XhRfFR/view?usp=drive_link  
 Arrange the image data into the correct locations as described above. For example, EmoSet can be obtained from https://vcc.tech/EmoSet.
 The folders 'annotation', 'cap-ano', 'caption', 'image', and 'result' are empty and need to be created manually (GitHub does not support empty folder, or you can download from https://drive.google.com/drive/folders/1DL-bIxUtHaTzfmhXuwn1-sCLx42-Oy0V?usp=sharing )
 
