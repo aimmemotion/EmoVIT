@@ -25,7 +25,7 @@ EmoSet/
         .
         .
         |
-        +--result_image
+        +--train_image
                 |
                 ........
 ```
