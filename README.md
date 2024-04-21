@@ -74,5 +74,5 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
   LAVIS/lavis/runners/runner_base.py (Change the name of the weight file to be saved.)
 
 ## Inference emoVIT
-If you haven't trained your own weights yet, you can use the model_weights1.pth provided in the LAVIS folder. 
+If you haven't trained your own weights yet, you can use the model_weights1.pth provided in the LAVIS folder.  
 python ./LAVIS/test.py  
