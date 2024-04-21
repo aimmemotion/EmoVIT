@@ -64,7 +64,7 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
   
 - Run  
     - training  
-    cd LAVIS
+    cd LAVIS  
     python train.py --cfg-path FT.yaml  
 
 - Parameter  
