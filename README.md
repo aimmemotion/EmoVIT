@@ -59,7 +59,9 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
 
 ## Train emoVIT 
 - Prepare weight  
-  You can obtain the weights for Vicuna from the page https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md , we are using version 1.1.  
+  You can obtain the weights for Vicuna from the page https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md , we are using version 1.1.
+  Place the downloaded file into LAVIS/lavis/weight/vicuna-7b-2/
+  
 - Run  
     - training  
     python train.py --cfg-path FT.yaml  
