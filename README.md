@@ -49,7 +49,7 @@ cd LAVIS
 pip install -e . (Please remove 'open3d' from the 'requirements.txt' file to avoid version conflicts.)  
 Cut the 'lavis' folder and paste it into the 'lib' folder.  
 
-## caption
+## Generate captions
 1. python ./emo/caption.py (To obtain image captions，select the 'path' based on the class to be processed.) 
 2. python ./emo/cap-anno.py (To write the attributes and captions of the image into a file，select the 'path' based on the class to be processed.)  
 3. python ./emo/gpt4_reasoning.py or python ./emo/gpt4_conversation.py (Using the above file as input data, instruct gpt4 to generate questions.)  
