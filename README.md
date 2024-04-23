@@ -31,7 +31,7 @@ EmoSet/
 ```
 You can find two main folders in our project structure, 'emo' and 'LAVIS'.  
 The 'emo' folder can be obtained from https://drive.google.com/file/d/1zSZZa7_3mzzhVDlka4GYyJHJrLR5F7vN/view?usp=drive_link , 
-while the 'LAVIS' folder can be obtained from https://drive.google.com/file/d/1YgZcHANKRsZSN2mU_qMnzBJF4jXlMGEg/view?usp=drive_link .
+while the 'LAVIS' folder can be obtained from https://drive.google.com/file/d/1YLgOVlJNIdyOOlppX0uPMXGxVT37YqbF/view?usp=drive_link .
 Arrange the image data into the correct locations as described above. For example, EmoSet can be obtained from https://vcc.tech/EmoSet.
 
 ## Install related packages
