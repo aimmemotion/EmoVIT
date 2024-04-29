@@ -8,15 +8,15 @@ EmoSet/
 |
 +--emo
     |
-    +--annotation (Results of Emoset Decompression)
+    +--annotation (Results of Emoset Decompression.)
     |
-    +--cap-ano
+    +--cap-ano (Create the folders required for the program execution before running it.)
     |
-    +--caption
+    +--caption (Create the folders required for the program execution before running it.)
     |
-    +--reasoning
+    +--reasoning (Create the folders required for the program execution before running it.)
     |
-    +--conversation_new100
+    +--conversation_new100 (Create the folders required for the program execution before running it.)
     |
     +--prompt
     |
@@ -29,7 +29,7 @@ EmoSet/
         .
         .
         |
-        +--train_image
+        +--train_image (Emovit does not need all the photos; place the photos required for training here.)
                 |
                 ........
 ```
