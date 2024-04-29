@@ -14,6 +14,10 @@ EmoSet/
     |
     +--caption
     |
+    +--reasoning
+    |
+    +--conversation_new100
+    |
     +--prompt
     |
     +--image
