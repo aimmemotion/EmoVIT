@@ -8,7 +8,7 @@ EmoSet/
 |
 +--emo
     |
-    +--annotation
+    +--annotation (Results of Emoset Decompression)
     |
     +--cap-ano
     |
