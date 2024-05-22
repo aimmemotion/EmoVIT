@@ -60,6 +60,13 @@ Cut the 'lavis' folder and paste it into the 'lib' folder.
 #If you wish to adjust the prompt, you can go to the 'prompt' folder.
 4. python ./emo/all.py (Integrate the results of reasoning, conversation, and classification.)
 
+Following these steps, you can create instructions. If you want to skip this step, you can use the instructions we created using Emoset. (However, image data must still be downloaded from Emoset's official website.)
+conversation:
+https://drive.google.com/file/d/1E8UEH09y0CiAT4Hg7rm975AR3JCjEHeM/view?usp=drive_link
+reasoning:
+https://drive.google.com/file/d/1MTNHFzasCb0F921P0itaH-x8vN2OvxEu/view?usp=drive_link
+As for the generation method of categorical data, it does not need to rely on GPT for creation; it can be directly produced (you can observe the prompt in all.py)."
+
 ## Train emoVIT 
 - Prepare weight  
   You can obtain the weights for Vicuna from the page https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md , we are using version 1.1.
