@@ -60,7 +60,7 @@ pip install -e . # Please remove 'open3d' from the 'requirements.txt' file to av
 # Cut the 'lavis' folder and paste it into the 'lib' folder.
 ```
 
-## Generate Captions
+## Emotion Instruction Data Generation
 
 1. Run `python ./emo/caption.py` to obtain image captions. Select the 'path' based on the class to be processed.
 2. Run `python ./emo/cap-anno.py` to write the attributes and captions of the image into a file. Select the 'path' based on the class to be processed.
@@ -98,7 +98,7 @@ python train.py --cfg-path FT.yaml
 - `LAVIS/lavis/configs/datasets/coco/defaults_vqa.yaml`: Select the location of your data
   LAVIS/lavis/runners/runner_base.py (Change the name of the weight file to be saved.)
 
-## Inference emoVIT
+## Inference EmoVIT
 If you haven't trained your own weights yet, you can use the `model_weights1.pth` provided in the `LAVIS` folder.  
 ```bash
 python ./LAVIS/test.py  
