@@ -104,3 +104,15 @@ If you haven't trained your own weights yet, you can use the `model_weights1.pth
 python ./LAVIS/test.py  
 ```
 
+## Citation
+
+If you found this paper is helpful, please consider cite our paper:
+
+```bibtex
+@inproceedings{Xie2024EmoVIT,
+  title={EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning},
+  author={Hongxia Xie and Chu-Jun Peng and Yu-Wen Tseng and Hung-Jen Chen and Chan-Feng Hsu and Hong-Han Shuai and Wen-Huang Cheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
+```
