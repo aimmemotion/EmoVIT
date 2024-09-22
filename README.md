@@ -27,6 +27,7 @@ cd ..
 git clone https://github.com/salesforce/LAVIS.git
 cd LAVIS
 pip install -e . # Please remove 'open3d' from the 'requirements.txt' file to avoid version conflicts.
+cd ../
 # Cut the 'lavis' folder and paste it into the 'lib' folder.
 ```
 
