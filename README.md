@@ -43,8 +43,8 @@ and place them into the emo folder.
 
 ## Model Preparation
 
-Download lavis_with_weight.zip
-(If you prefer to train it yourself, you can download lavis_without_weight.zip instead)
+Download lavis_with_weight.zip https://drive.google.com/file/d/1vZa7C6rxxsq51VQ73ESGQ0S8zEI2dnq_/view?usp=drive_link
+(If you prefer to train it yourself, you can download lavis_without_weight.zip instead https://drive.google.com/file/d/1Re_lzyrQehuL1SjP4GmgPCMPf5jHg3hs/view?usp=drive_link)
 Extract the zip file and place it in the emovit folder.
 
 Download all files from this Hugging Face page
