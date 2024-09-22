@@ -1,51 +1,21 @@
 # EmoVIT
 Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning"** | CVPR 2024
 
-```
-EmoSet/
-|
-+--LAVIS
-|
-+--emo
-    |
-    +--annotation (Results of EmoSet decompression.)
-    |
-    +--cap-ano (Create the folders required for program execution before running it.)
-    |
-    +--caption (Create the folders required for program execution before running it.)
-    |
-    +--reasoning (Create the folders required for program execution before running it.)
-    |
-    +--conversation_new100 (Create the folders required for program execution before running it.)
-    |
-    +--prompt
-    |
-    +--image
-        +--amusement (Results of EmoSet decompression)
-        |
-        +--anger (Results of EmoSet decompression)
-        |
-        .
-        .
-        .
-        |
-        +--train_image (EmoVIT does not need all photos; place the photos required for training here.)
-                |
-                ........
-```
-
-You can find two main folders in our project structure: `emo` and `LAVIS`.
-
-- The `LAVIS` folder can be obtained from [here](https://drive.google.com/file/d/1YLgOVlJNIdyOOlppX0uPMXGxVT37YqbF/view?usp=drive_link).
-- Arrange the image data into the correct locations as described above. For example, EmoSet can be obtained from [EmoSet](https://vcc.tech/EmoSet).
-
-## Install Related Packages
+## Setting up the environment
 
 ```bash
+git clone https://github.com/aimmemotion/EmoVIT.git
 conda create --name emovit python=3.8
 conda activate emovit
-cd emovit
-pip install -r requirements.txt
+
+cd Emovit
+pip install -r requirements_lavis.txt
+```
+## Install the corresponding version of PyTorch
+
+```bash
+#Using CUDA 11.8 as an example
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 ## Install LAVIS
@@ -59,6 +29,26 @@ cd LAVIS
 pip install -e . # Please remove 'open3d' from the 'requirements.txt' file to avoid version conflicts.
 # Cut the 'lavis' folder and paste it into the 'lib' folder.
 ```
+
+## Dataset Preparation
+
+Download EmoSet from
+https://vcc.tech/EmoSet
+
+Extract the downloaded EmoSet files
+(annotation, image, info.json, test.json, train.json, val.json)
+and place them into the emo folder.
+
+
+## Model Preparation
+
+Download lavis_with_weight.zip
+(If you prefer to train it yourself, you can download lavis_without_weight.zip instead)
+Extract the zip file and place it in the emovit folder.
+
+Download all files from this Hugging Face page
+https://huggingface.co/lmsys/vicuna-7b-v1.1/tree/main
+Place the downloaded files into ./Emovit/LAVIS/lavis/weight/vicuna-7b-2/
 
 ## Emotion Instruction Data Generation
 
@@ -75,14 +65,6 @@ Following these steps, you can create instructions. If you want to skip this ste
 - Reasoning: [Download](https://drive.google.com/file/d/1MTNHFzasCb0F921P0itaH-x8vN2OvxEu/view?usp=drive_link)
 
 The generation method of categorical data does not need to rely on GPT for creation; it can be directly produced (you can observe the prompt in `all.py`).
-
-## Train EmoVIT
-
-### Prepare Weights
-
-You can obtain the weights for Vicuna from [this page](https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md). We are using version 1.1. Place the downloaded file into `LAVIS/lavis/weight/vicuna-7b-2/`.
-
-### Run
 
 #### Training
 
