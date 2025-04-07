@@ -1,3 +1,16 @@
+# Update 2025/04/07
+Some parts of the code were using wrong version parameters, which caused issues during inference.
+Several related parameter files have been updated—you can find them in the main folder. Please replace the original files with these updated versions.
+
+Both FT.yaml and blip2_vicuna_instruct have been modified to use the correct parameters.
+(Note: blip2_vicuna_instruct should be placed under LAVIS/lavis/models/blip2_models.)
+
+The train.json file originally provided was incomplete; the current version contains the full dataset.
+https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link
+
+As for the weights trained with the correct parameters, you can download them from the following link:
+https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link"
+
 # EmoVIT
 Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning"** | CVPR 2024
 
