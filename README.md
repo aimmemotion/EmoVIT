@@ -14,12 +14,6 @@ Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Vis
   - 📁 **Note:** `blip2_vicuna_instruct` should be placed in:  
     `LAVIS/lavis/models/blip2_models/`
 
-### 📄 Dataset Update
-
-- The originally provided `train.json` was incomplete.  
-  ✅ The latest version now contains the full dataset and can be downloaded here:  
-  [📎 Download `train.json`](https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link)
-
 ### 💾 Trained Weights
 
 - Weights trained using the **corrected parameters** are now available.  
