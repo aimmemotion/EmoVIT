@@ -9,7 +9,16 @@ The train.json file originally provided was incomplete; the current version cont
 https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link
 
 As for the weights trained with the correct parameters, you can download them from the following link:
-https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link"
+https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link
+
+## For the emotion reasoning 
+
+If you’d like the model to output the reasoning, please set the input prompt as:
+
+Predicted emotion: [emotion].
+Reason: [explanation].
+
+This is mentioned in Section 4.4.1 Affective Reasoning of our paper.
 
 # EmoVIT
 Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning"** | CVPR 2024
