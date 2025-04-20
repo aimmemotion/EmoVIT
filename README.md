@@ -3,6 +3,12 @@ Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Vis
 
 ## 🔄 Update Log – 2025/04/07
 
+### 📄 Dataset Update
+
+- The originally provided `train.json` was incomplete.  
+  ✅ The latest version now contains the full dataset and can be downloaded here:  
+  [📎 Download `train.json`](https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link)
+
 ### ✅ Bug Fixes & Configuration Updates
 
 - Fixed incorrect version parameters previously used during inference.
