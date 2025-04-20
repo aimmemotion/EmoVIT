@@ -25,7 +25,6 @@ Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Vis
 - Weights trained using the **corrected parameters** are now available.  
   [📥 Download Trained Weights](https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link)
 
----
 
 ## 🧠 Emotion Reasoning Support
 
@@ -35,6 +34,7 @@ To enable **emotion reasoning output** from the model, format the input prompt a
 
 🔍 This usage is described in **Section 4.4.1 (Affective Reasoning)** of our paper.
 
+---
 
 ## Setting up the environment
 
