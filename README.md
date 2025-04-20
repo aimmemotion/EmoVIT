@@ -1,27 +1,40 @@
-# Update 2025/04/07
-Some parts of the code were using wrong version parameters, which caused issues during inference.
-Several related parameter files have been updated—you can find them in the main folder. Please replace the original files with these updated versions.
-
-Both FT.yaml and blip2_vicuna_instruct have been modified to use the correct parameters.
-(Note: blip2_vicuna_instruct should be placed under LAVIS/lavis/models/blip2_models.)
-
-The train.json file originally provided was incomplete; the current version contains the full dataset.
-https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link
-
-As for the weights trained with the correct parameters, you can download them from the following link:
-https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link
-
-## For the emotion reasoning 
-
-If you’d like the model to output the reasoning, please set the input prompt as:
-
-Predicted emotion: [emotion].
-Reason: [explanation].
-
-This is mentioned in Section 4.4.1 Affective Reasoning of our paper.
-
 # EmoVIT
 Official code for the paper **"EmoVIT: Revolutionizing Emotion Insights with Visual Instruction Tuning"** | CVPR 2024
+
+## 🔄 Update Log – 2025/04/07
+
+### ✅ Bug Fixes & Configuration Updates
+
+- Fixed incorrect version parameters previously used during inference.
+- Updated several related parameter files—please **replace** the original files with the latest versions found in the root directory.
+
+### 🛠️ Configuration Changes
+
+- `FT.yaml` and `blip2_vicuna_instruct` have been modified to incorporate the correct parameter settings.
+  - 📁 **Note:** `blip2_vicuna_instruct` should be placed in:  
+    `LAVIS/lavis/models/blip2_models/`
+
+### 📄 Dataset Update
+
+- The originally provided `train.json` was incomplete.  
+  ✅ The latest version now contains the full dataset and can be downloaded here:  
+  [📎 Download `train.json`](https://drive.google.com/file/d/1OV3X7BJyEDYXTGaDbu7E8rGgGzIlnwVq/view?usp=drive_link)
+
+### 💾 Trained Weights
+
+- Weights trained using the **corrected parameters** are now available.  
+  [📥 Download Trained Weights](https://drive.google.com/file/d/1zaYOSlt3mLVMdiNfAKdJcwvVc-4LHfdr/view?usp=drive_link)
+
+---
+
+## 🧠 Emotion Reasoning Support
+
+To enable **emotion reasoning output** from the model, format the input prompt as:
+
+`Predicted emotion: [emotion]. Reason: [explanation].`
+
+🔍 This usage is described in **Section 4.4.1 (Affective Reasoning)** of our paper.
+
 
 ## Setting up the environment
 
